@@ -1,0 +1,248 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    background-color: #aaaaaa0e;
+}
+
+
+/* -----------
+   header-area-start 
+   -------------*/
+.header-area{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 25px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icon .fa-solid{
+    padding-left: 30px;
+    color: black;
+}
+/* -----------
+   header-area-end 
+   -------------*/
+/* section-1-start */
+   .conteiner{
+    margin-bottom: 80px;
+    display: flex;
+     justify-content: space-around;
+   }
+
+   .Start-Journey{
+    display: flex;
+   }
+   .text-area{
+    margin-right: 60px;
+   }
+    .text-area h1{
+        font-size: 52px;
+        font-weight: bold;
+   }
+   .text-area p{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 50px;
+   }
+ .button{
+    padding: 10px 20px;
+    background-color: #E02C6D ;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+   }
+   .text-area a span i{
+    padding-left: 10px;
+    color: white;
+   }
+   .img img{
+    background-image: url(images/Circle\ design.svg);
+    width:440px;
+    height: 414px;
+   } 
+/* section-1-end */
+
+/* logo-area-start */
+   .logo-area{
+    border: 2px solid rgba(199, 196, 196, 0.1);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 5px;
+   }
+   .logo-area:hover{
+    border: 2px solid rgb(53, 137, 247);
+   }
+.logo{
+    display: flex;
+    margin: 10px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+ /* logo-area-end */
+
+
+ /* popular colloction start */
+
+ .Popular-area{
+display: flex;
+justify-content: space-around;
+
+ }
+
+ .popular-card{
+    width: 1047px;
+    height: 1662px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+ } 
+ .others:hover{
+
+    border: 2px solid rgb(53, 137, 247);
+ }
+
+.others h2{
+    margin-bottom: 50px;
+    text-align: center;
+ }
+.card{
+    width: 329px;
+    height: 476px;
+    box-shadow: 10px 10px 20px rgba(211, 211, 211, 0.9);
+    border-radius: 5px;
+}
+.card img{
+    margin: 15px 35px;
+    width: 250px;
+    height: 200px;
+}
+.text-info{
+    padding-left: 35px;
+}
+.text-info h3{
+    margin: 0;
+  padding-bottom: 15px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.text-info h4{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 15px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-solid{
+    color: #FB8200;
+}
+.text-info span{
+    padding-left: 10px;
+}
+.text-info p{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin: 0;
+    font-size: 14px;
+}
+.see-more{
+    color: red;
+    display: flex;
+    text-decoration: none;
+    justify-content:flex-end;
+
+}
+  /* popular colloction end */
+
+
+  /* Featured products start */
+.featured{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+  .featured-img img{
+    width: 404px;
+    height: 270px;
+  }
+  .featured-text h2{    
+    font-size: 38px;
+    font-weight: bold;
+  }
+  .featured-text p{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .featured-text a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:#E02C6D  ;
+  }
+  .featured-text a i{
+    padding-left: 15px;
+    color: white;
+  }
+  /* Featured products end */
+
+
+  /* footer area start */
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-area h3,p, .fa-brands{
+    color: white;
+}
+.footer-area h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-area p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.fa-brands{
+    padding: 15px;
+}
+  /* footer area end */
+  @media only screen and(max-width:580px) {
+    
+    
+  }
